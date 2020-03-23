@@ -75,7 +75,6 @@ def gross_per_studio(collection)
   movie_index = 0
   studio_totals = {}
   
-  
   while movie_index < collection.length do
     studio_name = collection[movie_index][:studio]
     if studio_totals[studio_name]
